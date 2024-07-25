@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="469.800000" height="49.800000" viewBox="0 -830 7830 830">
+    <g id="z5">
+        <path transform="translate(-30, -35)" fill="#000000"
+            d="M90 35H550C583 35 610 8 610 -25V-735C610 -768 583 -795 550 -795H90C57 -795 30 -768 30 -735V-25C30 8 57 35 90 35ZM60 -25V-735C60 -752 73 -765 90 -765H550C567 -765 580 -752 580 -735V-25C580 -8 567 5 550 5H90C73 5 60 -8 60 -25Z"></path>
+    </g>
+</svg>
