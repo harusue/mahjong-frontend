@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
+
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/result.module.css';
 import { useWebSocket } from './WebSocketProvider';
 
 const Result = () => {
-  const { socketRef, message } = useWebSocket();
+  const { _, message } = useWebSocket();
   const [tilesArray, setTilesArray] = useState([]);
   const [yaku, setYaku] = useState([]);
   const [han, setHan] = useState(0);

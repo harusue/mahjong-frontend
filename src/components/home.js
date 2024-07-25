@@ -1,10 +1,12 @@
+/* eslint-disable no-unused-vars */
+
 import React from 'react';
 import styles from '../styles/home.module.css';
 import { useNavigate } from 'react-router-dom';
 import { useWebSocket } from './WebSocketProvider';
 
 const Home = () => {
-  const { socketRef, message } = useWebSocket();
+  const { socketRef, _message } = useWebSocket();
   const navigate = useNavigate();
 
   const movebtn = () => {
